@@ -33,6 +33,8 @@
 
            */
 
+            /* ------------->
+
             Ogrenci ogrenci = new Ogrenci();
             Ogrenci ogrenci1 = new Ogrenci();
             Ogrenci ogrenci2 = new Ogrenci();
@@ -55,6 +57,83 @@
             ogrenci3.getOgrenciBilgi();
             ogrenci4.getOgrenciBilgi();
             ogrenci5.getOgrenciBilgi();
+
+            <----------         */
+
+
+            /*
+
+            BookStore bookStore = new BookStore();
+            BookStore bookStore1 = new BookStore();
+            BookStore bookStore2 = new BookStore();
+            BookStore bookStore3 = new BookStore();
+            BookStore bookStore4 = new BookStore();
+
+            bookStore.setBook(1, "Harry Potter", "Çekdar Çapar");
+            bookStore1.setBook(2, "Şeker Portakal", "Öykü Yurdagül");
+            bookStore2.setBook(3, "Başlangıç", "Dan Brown");
+            bookStore3.setBook(4, "Titanic", "Ahmet Gökçay");
+            bookStore4.setBook(5, "Açlık Oyunları", "Mauro Icardi");
+
+
+
+            Console.Write("1 ile 5 arası bir kitap ID'si giriniz : ");
+            int sayi = Convert.ToInt32(Console.ReadLine()); 
+
+            while (true)
+            {
+                if (sayi == 1)
+                {
+                    Console.WriteLine(bookStore.getBook());
+                    break;
+
+                }
+                else if (sayi == 2)
+                {
+                    Console.WriteLine(bookStore1.getBook());
+                    break;
+                }
+                else if (sayi == 3)
+                {
+                    Console.WriteLine(bookStore2.getBook());
+                    break;
+                }
+                else if (sayi == 4)
+                {
+                    Console.WriteLine(bookStore3.getBook());
+                    break;
+                }
+                else if (sayi == 5)
+                {
+                    Console.WriteLine(bookStore4.getBook());
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Lütfen 1 ile 5 arası sayı giriniz...");
+                    break;
+                }
+            }
+              */
+
+
+            /*
+
+            Islem islem = new Islem();
+
+            Console.WriteLine("1.SAYINIZI GİRİNİZ : ");
+            islem.Sayi = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("2. Sayınızı Giriniz : ");
+            islem.Sayi2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("İşlem Kodu (+,-,*,/)");
+            islem.islem = Convert.ToChar(Console.ReadLine());
+
+            islem.setSonuc();
+
+            Console.WriteLine("Sonuc : {0}",islem.getSonuc());
+
+            */
+            
 
             Console.ReadKey();
         }
