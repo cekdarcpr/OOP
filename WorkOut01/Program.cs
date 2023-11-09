@@ -104,6 +104,8 @@ namespace WorkOut01
 
             //Console.WriteLine($"Cemberin Yarıçapı {alanHsplm.YariCap} Cemberin Alanı {alanHsplm.Cember}");
 
+            
+
             Console.ReadKey();
         }
     }
